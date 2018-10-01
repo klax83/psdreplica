@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	height: auto;
+}
+nav {
+	background-color: #fe7e00;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: 1.6px;
+}
+main {
+	display: inline-block;
+	width: 100%;
+	height: 525px;
+}
+main div {
+	height: 525px;
+	width: 50%;
+}
+img {
+	width: 90%;
+	height: auto;
+}
+.bold {
+	font-weight: 700;
+	font-size: 40px;
+}
+.left {
+	float: left;
+	text-align: center;
+	
+	padding-top: 50px;
+}
+.right {
+	float: right;
+	height: 100%;
+	vertical-align: middle;
+	
+}
+.right input {
+	float: right;
+	margin: 10px 40px;
+}
+p {
+	margin: 50px;
+	padding-top: 50px;
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 3.5px;
+	color: #fe7e00;
+	line-height: 50px;
+}
+.blue {
+	color: #7ccccb;
+}
+
+input {
+	top: 30px;
+	background-color: #f0f0f0;
+	border: none;
+	font-size: 25px;
+	padding: 0 10px;
+	line-height: 50px;
+	color: grey;
+	box-shadow: 5px 5px;
+}
+
+button {
+	border: none;
+	padding: 20px 30px;
+	width: 40%;
+	margin: 0 5%;
+	color: white;
+	font-size: 20px;
+}
+.but1 {
+	float: left;
+	background-color: #7ccccb;
+}
+.but2 {
+	float: right;
+	background-color: #fe7e00;
+}
+footer {
+	background-color: #7ccccb;
+	width: 100%;
+	height: 150px;
+	bottom: 0;
+	text-align: center;
+	position: fixed;
+}
+footer i {
+	padding: 30px 20px;
+	color: white;
+}
+.logo {
+	float: left;
+	color: white;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+.list {
+	float: right;
+}
+.list li {
+	display: inline-block;
+	padding: 20px;
+}
+nav div {
+	height: 100%;
+}
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+ul {
+	margin-right: 20px;
+}
+.logo span {
+	font-weight: 700;
+	
+}
