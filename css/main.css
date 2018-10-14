@@ -18,7 +18,7 @@ main {
 	height: 525px;
 }
 main div {
-	height: 525px;
+	height: 50%;
 	width: 50%;
 }
 img {
@@ -124,4 +124,86 @@ ul {
 .logo span {
 	font-weight: 700;
 	
+}
+@media(max-width: 1160px) {
+	div.logo {
+		margin-left: 2%;
+	}
+	.list li
+	{
+		padding: 20px 1%;
+	}
+	ul {
+		padding-left: 0;
+	}
+	.right p {
+		margin-left: 0;
+		margin-right: 0; 
+	}
+}
+@media(max-width: 750px) {
+	.logo {
+		display: none;
+	}
+	.right p {
+		margin: 0;
+		font-size: 1rem;
+	}
+	input {
+		max-width: 80%;
+	}
+
+	.left img {
+		padding-top: 30%;
+	}
+	ul {
+		margin-left: 10%;
+	}
+	span {
+		font-size: 1rem;
+	}
+	.bold {
+		font-size: 1rem;
+	}
+	div.right {
+		padding-top: 50px;
+	}
+}
+@media(max-width: 500px) {
+	main div {
+		display: block;
+		width: 100%;
+	}
+	.left img {
+		padding-top: 0;
+	}
+	.right, .left {
+		float: initial;
+		max-width: 100%;
+	}
+	.right {
+		text-align: center;
+	}
+	div.right{
+		padding-top: initial;
+	}
+	.right p {
+		text-align: center;
+		padding-top: 0;
+	}
+	.list li {
+		font-size: .7rem;
+	}
+	.left {
+		padding-top: 0;
+	}
+	footer {
+		height: 10%;
+	}
+	input {
+		display: none;
+	}
+	.but1 ,.but2 {
+		font-size: .75rem;
+	}
 }
